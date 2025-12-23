@@ -294,6 +294,26 @@
             font-size: 0.9rem;
         }
         
+        .website-credit {
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            color: #bbb;
+            font-size: 0.9rem;
+        }
+        
+        .website-credit a {
+            color: #e63946;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+        
+        .website-credit a:hover {
+            color: #d62839;
+            text-decoration: underline;
+        }
+        
         /* Responsive Design */
         @media (max-width: 768px) {
             .header-content {
@@ -396,12 +416,12 @@
                     <p>Brake pad replacement, rotor resurfacing, caliper repair, and brake fluid flush.</p>
                 </div>
                 <div class="service-card">
-                    <i class="fas fa-engine"></i>
+                    <i class="fas fa-cog"></i>
                     <h3>Engine Diagnostics</h3>
                     <p>Check engine light diagnostics, engine repair, and performance troubleshooting.</p>
                 </div>
                 <div class="service-card">
-                    <i class="fas fa-tire"></i>
+                    <i class="fas fa-circle-notch"></i>
                     <h3>Tire Services</h3>
                     <p>Tire rotation, flat repair, and tire replacement services at your location.</p>
                 </div>
@@ -457,6 +477,7 @@
                         <input type="hidden" name="_subject" value="New Service Request - Loyd's Mobile Mechanic">
                         <input type="hidden" name="_template" value="table">
                         <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="https://www.okiewebsiteguy.com">
                         
                         <div class="form-group">
                             <label for="name">Your Name</label>
@@ -516,6 +537,10 @@
                 <div class="copyright">
                     <p>&copy; <span id="currentYear"></span> Loyd's Mobile Mechanic. All rights reserved.</p>
                     <p>Serving Tulsa, OK and surrounding areas.</p>
+                </div>
+                
+                <div class="website-credit">
+                    <p>This website was created by <a href="https://www.okiewebsiteguy.com" target="_blank">The Okie Website Guy</a></p>
                 </div>
             </div>
         </div>
